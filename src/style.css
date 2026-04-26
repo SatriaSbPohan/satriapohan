@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-white font-sans overflow-hidden antialiased;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-dark-panel backdrop-blur-md border border-white/10 rounded-xl shadow-lg;
+  }
+  
+  .neon-text {
+    @apply text-neon-blue drop-shadow-[0_0_5px_rgba(0,243,255,0.7)];
+  }
+
+  .neon-border-blue {
+    @apply border-neon-blue shadow-neon-blue;
+  }
+
+  .interactive-card {
+    @apply cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-white/5;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #333; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f3ff; 
+}
+
+canvas {
+  outline: none;
+}
+
+#loading-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease;
+}
