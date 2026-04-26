@@ -322,6 +322,7 @@ a  { text-decoration: none; color: inherit; }
 .about-bio {
   font-size: 1rem; color: var(--gray); line-height: 1.8;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 .about-bio strong { color: var(--dark); font-weight: 700; }
 .about-bio em { color: var(--blue); font-style: normal; font-weight: 500; }
