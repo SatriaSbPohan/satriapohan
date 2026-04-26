@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satria Pohan – Web Developer</title>
+  <meta name="description"
+    content="Satria Pohan – Freelance Web Developer from Aek Godang. I help brands turn their ideas into high quality products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/portfolio.css" />
+  <link rel="icon" href="public/pngegg.png">
+</head>
+
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo" id="logo-link">
+        Satria<span class="logo-accent">.</span>dev
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Beranda</a>
+        <a href="#about" class="nav-link">Tentang</a>
+        <a href="#services" class="nav-link">Layanan</a>
+        <a href="#projects" class="nav-link">Proyek</a>
+        <a href="#blog" class="nav-link">Blog</a>
+      </nav>
+      <a href="mailto:satriapohan2@gmail.com" class="nav-email" id="nav-email">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="4" width="20" height="16" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+        </svg>
+        satriapohan2@gmail.com
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── HERO ── -->
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg-blob blob-1"></div>
+      <div class="hero-bg-blob blob-2"></div>
+
+      <div class="hero-content">
+        <p class="hero-greeting">Halo <span class="wave">👋</span></p>
+        <h1 class="hero-title">
+          Saya <span class="hero-name">Satria Pohan</span><br>
+          #<span class="hero-role" id="hero-role">Web Developer</span>
+        </h1>
+        <p class="hero-desc">
+          Hai, Saya Satria — seorang Software Engineer dari Aek Godang.<br>
+          Saya akan membantu anda mewujudkan visi menjadi kenyataan.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" id="btn-book">Hubungi Sekarang <svg width="14" height="14"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg></a>
+          <a href="#" class="btn btn-outline" id="btn-cv">Download CV <svg width="14" height="14" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg></a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Floating tech icon cards -->
+        <div class="tech-card tc-vscode" style="--tx:-60px; --ty:20px">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+        </div>
+        <div class="tech-card tc-react" style="--tx:70px; --ty:-30px">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        </div>
+        <div class="tech-card tc-ts" style="--tx:90px; --ty:80px">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="TypeScript" />
+        </div>
+        <div class="tech-card tc-node" style="--tx:-40px; --ty:-60px">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+        </div>
+        <div class="tech-card tc-figma" style="--tx:120px; --ty:-80px">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="photo-glow"></div>
+          <img src="/public/developer.png" alt="Satria Pohan – Web Developer" class="hero-photo" id="hero-photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ── STATS TICKER ── -->
+    <!-- <div class="stats-bar">
+      <div class="stat-item"><span class="stat-num" data-target="120">0</span>+ <span class="stat-label">Projects
+          Done</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-target="85">0</span>+ <span class="stat-label">Happy
+          Clients</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-target="6">0</span>+ <span class="stat-label">Years
+          Experience</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><span class="stat-num" data-target="15">0</span>+ <span class="stat-label">Awards
+          Won</span></div>
+    </div> -->
+
+    <!-- ── PARTNERS ── -->
+    <!-- <section class="partners" id="partners">
+      <p class="partners-label">PROUD MARKETING <span class="accent">PARTNERS</span> WITH</p>
+      <div class="partners-logos" id="partners-logos">
+        <div class="partner-logo partner-logo--text" aria-label="Google">
+          <span><span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span
+              style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span
+              style="color:#34A853">l</span><span style="color:#EA4335">e</span></span>
+        </div>
+        <div class="partner-logo partner-logo--text" aria-label="Amazon">
+          <span style="font-size:1.3rem;font-weight:700;letter-spacing:-1px;color:#232F3E;">amazon</span>
+        </div>
+        <div class="partner-logo partner-logo--text" aria-label="Airbnb">
+          <span style="color:#FF5A5F;font-weight:600;font-size:1.1rem;">airbnb</span>
+        </div>
+        <div class="partner-logo partner-logo--text" aria-label="Spotify">
+          <span style="color:#1DB954;font-weight:700;font-size:1.1rem;">Spotify</span>
+        </div>
+        <div class="partner-logo partner-logo--text">
+          <span style="font-style:italic;font-weight:700;font-size:1.1rem;letter-spacing:-0.5px;">in<span
+              style="color:#0077b5;">Trax</span></span>
+        </div>
+        <div class="partner-logo partner-logo--text">
+          <span style="font-weight:800;letter-spacing:2px;font-size:0.9rem;">∨ NOXIS</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ── ABOUT ── -->
+    <section class="about" id="about">
+      <div class="about-inner">
+
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img src="/public/wisuda.png" alt="Satria Pohan" class="about-img" />
+            <div class="about-badge">
+              <!-- <span class="badge-num">Fresh Graduate</span> -->
+              <span class="badge-label">Fresh Graduate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="section-tag">Siapa Saya</p>
+          <h2 class="section-title" style="text-align:left;">Tentang <span class="accent">Saya</span></h2>
+
+          <p class="about-bio">
+            Seorang Fresh Graduate dari jurusan <strong>Pendidikan Bahasa Inggris</strong> dengan latar belakang
+            pendidikan Sekolah Menengah Kejuruan (SMK) yang kuat di bidang
+            <strong>Rekayasa Perangkat Lunak (RPL)</strong>.
+            <!-- I bridge the gap between linguistic expertise and technical
+            proficiency, specializing in <em>error analysis</em> and <em>descriptive writing research</em>.
+          </p>
+          <p class="about-bio">
+            Beyond academia, I am an active contributor to community development through my role in
+            <strong>village cooperative management</strong> and a passionate advocate for
+            <strong>digital creativity</strong> and <strong>agricultural entrepreneurship</strong>.
+          </p> -->
+
+            <!-- Highlights -->
+          <div class="about-highlights">
+            <div class="highlight-card" id="hl-1">
+              <span class="hl-icon">🎓</span>
+              <div>
+                <strong>Pendidikan Bahasa Inggris</strong>
+                <p>2021 - 2025 Fresh Graduate</p>
+              </div>
+            </div>
+            <div class="highlight-card" id="hl-2">
+              <span class="hl-icon">💻</span>
+              <div>
+                <strong>Rekayasa Perangkat Lunak</strong>
+                <p>Ahli dalam pengembangan web dan menggunakan aplikasi digital</p>
+              </div>
+            </div>
+            <!-- <div class="highlight-card" id="hl-3">
+              <span class="hl-icon">🌾</span>
+              <div>
+                <strong>Community &amp; Agripreneurship</strong>
+                <p>Village cooperative management &amp; agricultural entrepreneurship</p>
+              </div>
+            </div> -->
+          </div>
+
+          <!-- Skills -->
+          <div class="about-skills">
+            <span class="skill-tag">Database</span>
+            <span class="skill-tag">Error Analysis</span>
+            <span class="skill-tag">Descriptive Writing</span>
+            <span class="skill-tag">Web Development</span>
+            <span class="skill-tag">Digital Creativity</span>
+            <!-- <span class="skill-tag">Cooperative Management</span> -->
+            <!-- <span class="skill-tag">Agripreneurship</span> -->
+            <span class="skill-tag">Linguistics</span>
+            <span class="skill-tag">Research</span>
+          </div>
+
+          <a href="#contact" class="btn btn-primary" id="about-cta" style="margin-top:1.8rem;display:inline-flex;">
+            Hubungi Saya
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SERVICES ── -->
+    <section class="services" id="services">
+      <div class="section-header">
+        <p class="section-tag">What I Do</p>
+        <h2 class="section-title">My <span class="accent">Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" id="svc-1">
+          <div class="svc-icon">🎨</div>
+          <h3>Desain UI / UX</h3>
+          <p>Antarmuka yang indah dan intuitif, dirancang menggunakan Figma untuk memanjakan pengguna sekaligus
+            meningkatkan tingkat konversi.</p>
+        </div>
+        <div class="service-card" id="svc-2">
+          <div class="svc-icon">⚡</div>
+          <h3>Pengembangan Web</h3>
+          <p>Situs web yang cepat, aksesibel, dan responsif, dibangun dengan framework modern seperti React dan Next.js.
+          </p>
+        </div>
+        <div class="service-card" id="svc-3">
+          <div class="svc-icon">📱</div>
+          <h3>Pengelolaan Database</h3>
+          <p>Solusi penyimpanan data yang aman, terukur, dan efisien menggunakan teknologi SQL atau MySQL.</p>
+        </div>
+        <!-- <div class="service-card" id="svc-4">
+          <div class="svc-icon">🔍</div>
+          <h3>SEO & Performance</h3>
+          <p>Technical SEO audits and Core Web Vitals optimization to rank higher and load faster.</p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section class="projects" id="projects">
+      <div class="section-header">
+        <p class="section-tag">Portofolio</p>
+        <h2 class="section-title">Portofolio <span class="accent">Saya</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" id="proj-1">
+          <div class="proj-img" style="background:linear-gradient(135deg,#667eea,#764ba2)">
+            <img src="/public/edukolab.png">
+            <!-- <span class="proj-emoji">🛍️</span> -->
+          </div>
+          <div class="proj-body">
+            <span class="proj-tag">Pendidikan</span>
+            <h3><a href="https://plbeng.com">Edukolab</a></h3>
+            <p>Platform Edukasi yang menghubungkan antara Guru & Tim PKM
+              untuk Inovasi Pembelajaran</p>
+            <div class="proj-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" id="proj-2">
+          <div class="proj-img" style="background:linear-gradient(135deg,#f093fb,#f5576c)">
+            <img src="/public/mirnapohan.png">
+            <!-- <span class="proj-emoji">💊</span> -->
+          </div>
+          <div class="proj-body">
+            <span class="proj-tag">E-Commerce</span>
+            <h3><a href="https://mirnapohan.wordpress.com/">Toko Sepatu Mirna Pohan</a></h3>
+            <p>Tugas kuliah membuat website menggunakan Wordpress</p>
+            <div class="proj-stack"><span>Wordpress</span></div>
+          </div>
+        </article>
+        <article class="project-card" id="proj-3">
+          <div class="proj-img" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">
+            <!-- <span class="proj-emoji">📈</span> -->
+            <img src="/public/bukupanduan.png" alt="">
+          </div>
+          <div class="proj-body">
+            <span class="proj-tag">Pembuatan dan Desain</span>
+            <h3><a href="https://online.fliphtml5.com/satriapohan/rwfc/">Buku Panduan</a></h3>
+            <p>Buku panduan tentang cara menggunakan aplikasi Canva</p>
+            <div class="proj-stack"><span>CANVA</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <p class="section-tag">Let's Talk</p>
+          <h2 class="section-title">Hubungi <span class="accent">Saya</span></h2>
+          <p class="contact-desc">Punya proyek yang ingin diwujudkan? Mari terhubung dan wujudkan visi Anda menjadi
+            kenyataan.</p>
+          <div class="contact-info">
+            <a href="mailto:satriapohan2@gmail.com" class="contact-link" id="contact-email">📧
+              satriapohan2@gmail.com</a>
+            <a href="https://wa.me/082258922101" class="contact-link" id="contact-phone">📞
+              082258922101
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <input type="text" id="form-name" name="name" placeholder="Nama Anda" required />
+            <input type="email" id="form-email" name="email" placeholder="Alamat Email" required />
+          </div>
+          <input type="text" id="form-subject" name="subject" placeholder="Subjek" />
+          <textarea id="form-msg" name="message" rows="5" placeholder="Jelaskan projek anda...." required></textarea>
+          <button type="submit" class="btn btn-primary" id="form-submit" disabled>Kirim Pesan 🚀</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <a href="#" class="logo">Satria<span class="logo-accent">.</span>dev</a>
+      <p class="footer-copy">© 2025 Satria Pohan. Dibuat dengan ❤️ di Aek Godang, Indonesia.</p>
+      <div class="footer-social">
+        <a href="#" id="social-github" aria-label="GitHub">GH</a>
+        <a href="#" id="social-linkedin" aria-label="LinkedIn">LI</a>
+        <a href="#" id="social-twitter" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/src/portfolio.js"></script>
+</body>
+
+</html>
